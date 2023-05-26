@@ -1,0 +1,232 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Order section styles */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product input[type="checkbox"] {
+  display: none;
+}
+
+.product input[type="checkbox"]:checked + label {
+  background-color: #ccc;
+  border: 1px solid #999;
+}
+
+.product label {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product h3,
+.product p {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+#cartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 50px;
+  resize: none;
+  overflow: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Additional styles */
+h3 {
+  margin-top: 0;
+}
+
+
+
+form {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 1rem;
+  resize: none;
+  overflow: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  background-image: url('bop.gif');
+  background-size: 90%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  background-image: url('line.png');
+  background-repeat: repeat;
+  background-size: contain; /* Add this line */
+  background-position: left center; /* Modify this line */
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #333;
+  background-color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #222;
+}
+
+.page-name {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  background-image: url('fire-png-44305.png'); /* Add this line */
+  background-size: cover; /* Add this line */
+  background-position: center; /* Add this line */
+  background-repeat: no-repeat; /* Add this line */
+  padding: 20px; /* Add this line */
+}
+
+
+.page-name::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('fire-png-44305.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: -1;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+  text-align: left;
+}
